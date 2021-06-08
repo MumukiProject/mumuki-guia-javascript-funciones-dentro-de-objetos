@@ -2,7 +2,7 @@ Tenemos una variable `pelicula`, con propiedades que guardan información sobre 
 Necesitamos una función `mostrarInfo` que retorne el mensaje: "Película: [NOMBRE PELICULA] - Año: [AÑO PELICULA]"
 
 ```js
-const pelicula = {
+let pelicula = {
   titulo: "The Dark Knight",
   anio: 2008,
   director: "Christopher Nolan",
