@@ -8,7 +8,7 @@ let perfil = {
   edad: 30,
 };
 
-ム perfil.obtenerNombreCompleto());
+ム perfil.obtenerNombreCompleto;
 Hedy Lamarr
 ```
 
