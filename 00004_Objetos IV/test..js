@@ -5,7 +5,7 @@ describe("", function() {
       apellido: "Lamarr",
       edad: 30,
     };
-    let resultado = perfil.obtenerNombreCompleto();
+    let resultado = perfil.obtenerNombreCompleto;
     assert.equal(resultado,'Hedy Lamarr');
   })
 });
