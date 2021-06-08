@@ -12,9 +12,9 @@ describe("", function() {
 })
 
 describe("", function() {
-  it("Si luego hacemos playlist.agregarCancion('Cover Girl'), el array de canciones muestra las dos canciones", function() {
+  it("Si luego hacemos playlist.agregarCancion('Lotus Flower'), el array de canciones muestra las dos canciones", function() {
     playlist.agregarCancion('Geronimo');
-    playlist.agregarCancion('Cover Girl');
-    assert.equal(playlist.canciones(),['Geronimo', 'Cover Girl']);
+    playlist.agregarCancion('Lotus Flower');
+    assert.equal(playlist.canciones(),['Geronimo', 'Lotus Flower']);
   })
 })
