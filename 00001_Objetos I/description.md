@@ -4,9 +4,9 @@ Necesitamos una variable `holaMundo` y asignarle un objeto con las siguiente pro
   - obtenerMensaje: una función que retorna un string con el mensaje "¡Alo mundo!"
 
 ```js
-ム holaMundo.mostrarMensaje();
+ム holaMundo.mostrarMensaje;
 ¡Hola mundo!
-ム holaMundo.obtenerMensaje());
+ム holaMundo.obtenerMensaje;
 ¡Alo mundo!
 ```
 > Declará la variable `holaMundo` con las propiedades `mostrarMensaje` y `obtenerMensaje`.
