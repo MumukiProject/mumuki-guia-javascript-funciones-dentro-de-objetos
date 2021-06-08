@@ -8,7 +8,7 @@ let pelicula = {
   director: "Christopher Nolan",
 };
 
-ム pelicula.mostrarInfo;
+ム pelicula.mostrarInfo();
 Película: The Dark Knight - Año: 2008
 ```
 

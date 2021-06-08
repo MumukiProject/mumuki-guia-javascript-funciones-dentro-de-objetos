@@ -5,7 +5,7 @@ describe("", function() {
     anio: 2008,
     director: "Christopher Nolan",
 };
-    let resultado = pelicula.mostrarInfo;
+    let resultado = pelicula.mostrarInfo();
     assert.equal(resultado,'Película: The Dark Knight - Año: 2008');
   })
 });
@@ -17,7 +17,7 @@ describe("", function() {
     anio: 2006,
     director: "Guillermo del Toro",
 };
-    let resultado = pelicula.mostrarInfo;
+    let resultado = pelicula.mostrarInfo();
     assert.equal(resultado,'Película: El laberinto del fauno - Año: 2006');
   })
 });
