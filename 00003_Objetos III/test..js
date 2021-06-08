@@ -1,7 +1,7 @@
 describe("", function() {
-  it("Si hacemos playlist.agregarCancion('Geronimo'), la canción se agrega al array de canciones", function() {
-    playlist.agregarCancion('Geronimo')
-    assert.deepEqual(playlist.canciones,['Geronimo']);
+  it("Si hacemos playlist.agregarCancion('Black Bird'), la canción se agrega al array de canciones", function() {
+    playlist.agregarCancion('Black Bird')
+    assert.deepEqual(playlist.canciones,['Black Bird']);
   })
 })
 
