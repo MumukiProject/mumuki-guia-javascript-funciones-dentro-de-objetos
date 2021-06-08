@@ -1,9 +1,3 @@
-/*describe("", function() {
-  it("Se agregó el método agregarCancion", function() {
-    assert(playlist.agregarCancion());
-  })
-})*/
-
 describe("", function() {
   it("Si hacemos playlist.agregarCancion('Geronimo'), la canción se agrega al array de canciones", function() {
     playlist.agregarCancion('Geronimo')
