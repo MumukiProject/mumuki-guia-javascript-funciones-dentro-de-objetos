@@ -1,5 +1,5 @@
 Tenemos una variable `pelicula`, con propiedades que guardan información sobre una película
-- Necesitamos agregar un método/función `mostrarInfo` que muestre por consola el mensaje: "Película: [NOMBRE PELI] - Año: [AÑO PELI]"
+Necesitamos una función `mostrarInfo` que retorne el mensaje: "Película: [NOMBRE PELICULA] - Año: [AÑO PELICULA]"
 
 ```js
 const pelicula = {
