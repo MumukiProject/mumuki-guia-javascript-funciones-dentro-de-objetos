@@ -1,10 +1,10 @@
-- Declarar la variable **holaMundo** y asignarle un objeto con las siguiente propiedades:
-  - mostrarMensaje: una función que muestra en consola el mensaje '¡Hola mundo!'
+Necesitamos declarar una variable **holaMundo** y asignarle un objeto con las siguiente propiedades:
+  - mostrarMensaje: una función que retorna el mensaje '¡Hola mundo!'
   - obtenerMensaje: una función que retorna un string con el mensaje "¡Alo mundo!"
 
 ```js
-/// escribi aca tu solucion
-
-holaMundo.mostrarMensaje(); // ¡Hola mundo!
-console.log(holaMundo.obtenerMensaje()); // ¡Alo mundo!
+ム holaMundo.mostrarMensaje();
+¡Hola mundo!
+ム holaMundo.obtenerMensaje());
+¡Alo mundo!
 ```
