@@ -1,4 +1,4 @@
-Tenemos una variable `pelicula`, con propiedades que guardan información sobre una película
+Tenemos una variable `pelicula`, con propiedades que guardan información sobre una película.
 Necesitamos una función `mostrarInfo` que retorne el mensaje: "Película: [NOMBRE PELICULA] - Año: [AÑO PELICULA]"
 
 ```js
@@ -11,3 +11,5 @@ const pelicula = {
 ム pelicula.mostrarInfo();
 Película: The Dark Knight - Año: 2008
 ```
+
+> Definí la función `mostrarInfo`.
