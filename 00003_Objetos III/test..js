@@ -1,1 +1,20 @@
-TODO
+describe("", function() {
+  it("Se agregó el método agregarCancion", function() {
+    assert(playlist.agregarCancion();
+  })
+})
+
+describe("", function() {
+  it("Si hacemos playlist.agregarCancion('Geronimo'), la canción se agrega al array de canciones", function() {
+    playlist.agregarCancion('Geronimo')
+    assert.equal(playlist.canciones(),['Geronimo']);
+  })
+})
+
+describe("", function() {
+  it("Si luego hacemos playlist.agregarCancion('Cover Girl'), el array de canciones muestra las dos canciones", function() {
+    playlist.agregarCancion('Geronimo');
+    playlist.agregarCancion('Cover Girl');
+    assert.equal(playlist.canciones(),['Geronimo', 'Cover Girl']);
+  })
+})

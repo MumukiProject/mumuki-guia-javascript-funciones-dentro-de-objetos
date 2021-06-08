@@ -1,22 +1,15 @@
-- Tenemos una variable `playlist`, con información sobre una playlist de spotify
-- El objeto tiene una propiedad `songs` que es un array vacío
-- Al objeto vamos a agregarle un método que se llame `addSong`
-  - Este método va a recibir un string como parámetro (el nombre de una canción) y va a agregarlo en la propiedad `songs` del objeto.
-- Después de crear la función, agregá las siguientes 3 canciones utilizando `playlist.addSong`: **'Geronimo'**, **'Sissy That Walk'**, **'Cover Girl'**
+Tenemos una variable `playlist`, con información sobre una playlist de spotify
+El objeto tiene una propiedad `canciones` que es un array vacío.
+Vamos a agregarle un método que se llame `agregarCancion` que va a recibir un string como parámetro (el nombre de una canción) y va a agregarlo en la propiedad `canciones` del objeto.
 
 ```js
-// TODO: agregar en el objeto el método addSong, que recibe como parámetro el nombre de una canción a agregar en el array songs
+
 const playlist = {
-  name: "Rupaul Lipsyncs",
+  nombre: "Rupaul Lipsyncs",
   owner: "Ada",
-  followers: 8743,
-  songs: [],
+  seguidores: 8743,
+  canciones: [],
 };
 
-// TODO: utilizando el método que creamos antes, agrega las siguientes tres canciones utilizando el método playlist.addSong
-// 'Geronimo'
-// 'Sissy That Walk'
-// 'Cover Girl'
-
-console.log(playlist.songs); // [ 'Geronimo', 'Sissy That Walk', 'Cover Girl' ]
 ```
+> Definí el método `agregarCancion`, 
