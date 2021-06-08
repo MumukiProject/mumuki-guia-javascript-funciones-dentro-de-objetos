@@ -1,4 +1,4 @@
-- Tenemos una variable `pelicula`, con propiedades que guardan información sobre una película
+Tenemos una variable `pelicula`, con propiedades que guardan información sobre una película
 - Necesitamos agregar un método/función `mostrarInfo` que muestre por consola el mensaje: "Película: [NOMBRE PELI] - Año: [AÑO PELI]"
 
 ```js
@@ -8,6 +8,6 @@ const pelicula = {
   director: "Christopher Nolan",
 };
 
-pelicula.mostrarInfo();
-// Película: The Dark Knight - Año: 2008
+ム pelicula.mostrarInfo();
+Película: The Dark Knight - Año: 2008
 ```
