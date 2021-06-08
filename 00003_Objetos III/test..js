@@ -1,6 +1,6 @@
 describe("", function() {
   it("Se agregó el método agregarCancion", function() {
-    assert(playlist.agregarCancion();
+    assert(playlist.agregarCancion());
   })
 })
 
