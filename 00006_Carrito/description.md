@@ -18,5 +18,8 @@ let mouse = {
   envioIncluido: false,
 };
 
+ム carrito.agregarAlCarrito(mouse);
+ム carrito.obtenerTotal();
+  150
 ```
-> Definí el método `agregarAlCarrito` que agregue un producto al array de productos del carrito, y una función `obtenerTotal` que retorne la suma de todos los precios de los productos que están en el carrito.
+> Definí el método `agregarAlCarrito` que tome por parámetro un producto y lo agregue al array de productos del carrito, y una función `obtenerTotal` que retorne la suma de todos los precios de los productos que están en el carrito.
