@@ -40,6 +40,18 @@ describe("", function() {
 
 describe("", function() {
   it("Si agregamos un monitor, y unos auriculares el carrito tiene estos dos productos", function() {
+      let monitor = {
+      id: 0,
+      titulo: "Monitor Genius",
+      precio: 150,
+      envioIncluido: false,
+    };
+      let auriculares = {
+      id: 0,
+      titulo: "Auriculares Genius",
+      precio: 300,
+      envioIncluido: false,
+    };
       carrito.productos = [];
       carrito.agregarAlCarrito(monitor);
       carrito.agregarAlCarrito(auriculares);
