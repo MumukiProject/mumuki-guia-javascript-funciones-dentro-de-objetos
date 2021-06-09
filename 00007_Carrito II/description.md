@@ -3,4 +3,4 @@ Si un producto no tiene `envioIncluido` entonces al precio del producto hay que 
 Si tiene `envioIncluido` entonces se toma el precio que está en el objeto y no se le suma nada.
 Una vez calculado el total, hay que agregar un 21% de IVA.
 
-> Definí la función `precioConIVA` que retorne el precio total más el IVA.
+> Modificá la función `obtenerTotal` para que retorne el precio total más el IVA.
