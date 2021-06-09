@@ -4,7 +4,7 @@ Al objeto vamos a agregarle un método que se llame `obtenerNombreCompleto`, que
 ```js
 
 let perfil = {
-  nombre: {
+  nombreCompleto: {
     nombre: "Hedy",
     apellido: "Lamarr",
   },
