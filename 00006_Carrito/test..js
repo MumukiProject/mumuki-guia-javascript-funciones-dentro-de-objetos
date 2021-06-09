@@ -29,18 +29,24 @@ describe("", function() {
       let monitor = {
       id: 0,
       titulo: "Monitor Genius",
-      precio: 150,
+      precio: 2500,
       envioIncluido: false,
     };
       let auriculares = {
       id: 0,
       titulo: "Auriculares Genius",
-      precio: 300,
+      precio: 500,
       envioIncluido: false,
     };
       carrito.productos = [];
       carrito.agregarAlCarrito(monitor);
       carrito.agregarAlCarrito(auriculares);
       assert.deepEqual(carrito.productos, [monitor, auriculares]);
+  })
+});
+
+describe("", function() {
+  it("Si agregamos un monitor de 2500, y unos auriculares de 500, al hacer carrito.obtenerTotal retorna 3000", function() {
+      assert.equal(carrito.obtenerTotal(), 3000);
   })
 });
