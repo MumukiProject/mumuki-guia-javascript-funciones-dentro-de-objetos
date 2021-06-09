@@ -1,7 +1,7 @@
 Necesitamos una variable `holaMundo` y asignarle un objeto con las siguiente propiedades:
 
-  - mostrarMensaje: una función que retorna el mensaje '¡Hola mundo!';
-  - obtenerMensaje: una función que retorna un string con el mensaje "¡Alo mundo!"
+- mostrarMensaje: una función que retorna el mensaje '¡Hola mundo!';
+- obtenerMensaje: una función que retorna un string con el mensaje "¡Alo mundo!"
 
 ```js
 ム holaMundo.mostrarMensaje;
