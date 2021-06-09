@@ -14,7 +14,7 @@ describe("", function() {
     };
       carrito.agregarAlCarrito(mouse);
       carrito.agregarAlCarrito(teclado);
-      assert.deepEqual(carrito.productos(),[mouse, teclado]);
+      assert.deepEqual(carrito.productos,[mouse, teclado]);
   })
 });
 
@@ -43,6 +43,6 @@ describe("", function() {
       carrito.productos = [];
       carrito.agregarAlCarrito(monitor);
       carrito.agregarAlCarrito(auriculares);
-      assert.deepEqual(carrito.productos(),[monitor, auriculares]);
+      assert.deepEqual(carrito.productos, [monitor, auriculares]);
   })
 });
