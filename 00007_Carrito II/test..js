@@ -26,6 +26,6 @@ describe("", function() {
 
 describe("", function() {
   it("Si agregamos un mouse de 150 y un teclado de 420 más envio al hacer precioConIVA retorna 689.7", function() {
-      assert.equal(carrito.precioConIVA, 689.7);
+      assert.equal(carrito.obtenerTotal, 689.7);
   })
 });
