@@ -1,18 +1,16 @@
-- Crear un documento con el nombre `obj_031.js`
-- Copiar y pegar el código de la solución al ejercicio `obj_030`
-- Ahora tenemos que agregarle un método a `shoppingCart` que se llame `render` para mostrar el listado de productos a comprar con su precio y al final de todo el precio final total
+Necesitamos agregar una funcionalidad más a nuestro carrito, para ello vamos a agregarle un métodoque se llame `detalle` que debe mostrar el listado de productos a comprar con su precio y al final de todo el precio final total, con IVA incluido.
 
 ```js
-// COPIAR Y PEGAR LA SOLUCION EL EJERCICIO 030
 
-shoppingCart.render();
-/**** RESULTADO ESPERADO ****/
+ム carrito.detalle();
 
-// Listado de productos:
-// At vero elitr - $320
-// Dolore ipsum est eos - $250
-// Lorem sadipscing tempor - $120.5
-// Duo invidunt accusam - $530
-// Labore accusam eirmod. - $125.99
-// Total con IVA: $1629.2529
+Listado de productos:
+At vero elitr - $320
+Dolore ipsum est eos - $250
+Lorem sadipscing tempor - $120.5
+Duo invidunt accusam - $530
+Labore accusam eirmod. - $125.99
+Total con IVA: $1629.2529
 ```
+
+> Definí la función `detalle` que retorne el detalle tal como acabamos de mostrar.
