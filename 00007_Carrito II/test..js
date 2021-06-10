@@ -4,7 +4,7 @@ describe("", function() {
       id: 0,
       titulo: "Mouse Genius",
       precio: 150,
-      envioIncluido: false,
+      envioIncluido: true,
     };
       carrito.agregarAlCarrito(mouse);
       assert.equal(mouse.precio,150);
