@@ -5,11 +5,11 @@ Necesitamos agregar una funcionalidad más a nuestro carrito, para ello vamos a 
 ム carrito.detalle();
 
 Listado de productos:
-At vero elitr - $320
-Dolore ipsum est eos - $250
-Lorem sadipscing tempor - $120.5
-Duo invidunt accusam - $530
-Labore accusam eirmod. - $125.99
+Monitor - $320
+Pendrive - $250
+Mouse - $120.5
+Disco rigido - $530
+Teclado. - $125.99
 Total con IVA: $1629.2529
 ```
 
