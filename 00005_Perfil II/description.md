@@ -1,16 +1,3 @@
-Tenemos la misma variable `perfil` del ejercicio anterior, con información sobre una persona, pero con una diferencia en la estructura.
-Al objeto vamos a agregarle un método que se llame `obtenerNombreCompleto`, que no tiene parámetros y tiene que retornar un string con el nombre completo de la persona
+Tenemos la misma variable `perfil` del ejercicio anterior, con información sobre una persona, pero con una diferencia en la estructura. :sweat_smile:
 
-```js
-
-let perfil = {
-  nombreCompleto: {
-    nombre: "Hedy",
-    apellido: "Lamarr",
-  },
-  edad: 30,
-};
-
-ム perfil.obtenerNombreCompleto();
-Hedy Lamarr
-```
+> Agregá nuevamente la función `obtenerNombreCompleto` al `perfil` para que retorne el nombre tal como antes.
