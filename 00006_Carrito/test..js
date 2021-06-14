@@ -1,20 +1,20 @@
 describe("", function() {
   it("Si agregamos un mouse, y un teclado el carrito tiene estos dos productos", function() {
     let mouse = {
-      id: 0,
+      id: 1,
       titulo: "Mouse Genius",
       precio: 150,
       envioIncluido: false,
     };
       let teclado = {
-      id: 0,
-      titulo: "Mouse Genius",
+      id: 2,
+      titulo: "Teclado Genius",
       precio: 300,
       envioIncluido: false,
     };
-      carrito.agregarAlCarrito(mouse);
-      carrito.agregarAlCarrito(teclado);
-      assert.deepEqual(carrito.productos,[mouse, teclado]);
+    carrito.agregarAlCarrito(mouse);
+    carrito.agregarAlCarrito(teclado);
+    assert.deepEqual(carrito.productos,[mouse, teclado]);
   })
 });
 
@@ -27,13 +27,13 @@ describe("", function() {
 describe("", function() {
   it("Si agregamos un monitor, y unos auriculares el carrito tiene estos dos productos", function() {
       let monitor = {
-      id: 0,
+      id: 3,
       titulo: "Monitor Genius",
       precio: 2500,
       envioIncluido: false,
     };
       let auriculares = {
-      id: 0,
+      id: 4,
       titulo: "Auriculares Genius",
       precio: 500,
       envioIncluido: false,
