@@ -12,6 +12,6 @@ Los productos tienen 4 propiedades: `id` (un número), `titulo` (un string con e
 ム carrito.agregarAlCarrito(mouse)
 
 ム carrito.obtenerTotal()
-  150
+150
 ```
 > Definí el método `agregarAlCarrito` que tome por parámetro un producto y lo agregue al array de productos del carrito, y una función `obtenerTotal` que retorne la suma de todos los precios de los productos que están en el carrito.
