@@ -13,19 +13,19 @@ describe("", function() {
     envioIncluido: false
   };
   
-  it("Si agregamos un mouse con envio incluido el precio se mantiene igual", function() {
+  it("Si agregamos un mouse con envio incluido el total del carrito es el precio del mouse con el IVA incluido", function() {
     carrito.productos = [];
     carrito.agregarAlCarrito(mouse);
     assert.equal(carrito.obtenerTotal(), 181.5);
   })
 
-  it("Si agregamos un teclado que no tiene envio incluido, se le suman 120 al precio del producto", function() {
+  it("Si agregamos un teclado que no tiene envio incluido el total del carrito es el precio del teclado más $120 con el IVA incluido", function() {
     carrito.productos = [];
     carrito.agregarAlCarrito(teclado);
     assert.equal(carrito.obtenerTotal(), 508.2);
   })
 
-  it("Si agregamos un mouse de 150 y un teclado de 420 más envio al hacer precioConIVA retorna 689.7", function() {
+  it("Si agregamos un mouse de 150 con envío y un teclado de 300 sin envío el total del carrito es el preciode la suma de ambos productos con IVA", function() {
     carrito.productos = [];
     carrito.agregarAlCarrito(mouse);
     carrito.agregarAlCarrito(teclado);
