@@ -1,4 +1,5 @@
 describe("Si agregamos un mouse de 150 y un teclado de 300", function() {
+  carrito.productos = [];
   let mouse = {
     id: 1,
     titulo: "Mouse Genius",
@@ -23,6 +24,7 @@ describe("Si agregamos un mouse de 150 y un teclado de 300", function() {
 });
 
 describe("Si agregamos un monitor de 2500 y unos auriculares de 500", function() {
+  carrito.productos = [];
   let monitor = {
     id: 3,
     titulo: "Monitor Genius",
@@ -35,8 +37,10 @@ describe("Si agregamos un monitor de 2500 y unos auriculares de 500", function()
     precio: 500,
     envioIncluido: false,
   };
+  
   carrito.agregarAlCarrito(monitor);
   carrito.agregarAlCarrito(auriculares);
+  
   it("el carrito tiene estos dos productos", function() {
     assert.deepEqual(carrito.productos, [monitor, auriculares]);
   })
