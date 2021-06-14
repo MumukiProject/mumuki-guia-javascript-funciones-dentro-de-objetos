@@ -6,7 +6,7 @@ Los productos tienen 4 propiedades: `id` (un número), `titulo` (un string con e
   id: 0,
   titulo: "Mouse Genius",
   precio: 150,
-  envioIncluido: false,
+  envioIncluido: false
 };
 
 ム carrito.agregarAlCarrito(mouse)
