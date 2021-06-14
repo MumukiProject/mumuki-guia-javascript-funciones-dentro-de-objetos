@@ -29,6 +29,6 @@ describe("", function() {
     carrito.productos = [];
     carrito.agregarAlCarrito(mouse);
     carrito.agregarAlCarrito(teclado);
-    assert.equal(Math.round(carrito.obtenerTotal()), 689.7);
+    assert.equal(carrito.obtenerTotal().toFixed(1), 689.7);
   })
 });
