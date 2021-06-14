@@ -1,7 +1,7 @@
 Necesitamos agregarle al objeto `pelicula` :clapper: una propiedad `mostrarInfo` que sea una función que retorne el mensaje: `"Película: [NOMBRE PELICULA] - Año: [AÑO PELICULA]"`:
 
 ```js
-ム pelicula.mostrarInfo();
+ム pelicula.mostrarInfo()
 "Película: The Dark Knight - Año: 2008"
 ```
 
