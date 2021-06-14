@@ -8,6 +8,6 @@ describe("", function() {
 describe("", function() {
   it("Si luego hacemos playlist.agregarCancion('Lotus Flower'), el array de canciones muestra las dos canciones", function() {
     playlist.agregarCancion('Lotus Flower');
-    assert.deepEqual(playlist.canciones,['Black Bird', 'Lotus Flower']);
+    assert.deepEqual(playlist.canciones,['Blackbird', 'Lotus Flower']);
   })
 })
