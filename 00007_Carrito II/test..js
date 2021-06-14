@@ -3,14 +3,14 @@ describe("", function() {
     id: 1,
     titulo: "Mouse Genius",
     precio: 150,
-    envioIncluido: true,
+    envioIncluido: true
   };
   
   let teclado = {
     id: 2,
     titulo: "teclado Genius",
     precio: 300,
-    envioIncluido: false,
+    envioIncluido: false
   };
   
   it("Si agregamos un mouse con envio incluido el precio se mantiene igual", function() {
