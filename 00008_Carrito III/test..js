@@ -26,8 +26,8 @@ describe("Si agregamos un mouse,", function() {
   it("y hacemos carrito.detalle() nos retorna el listado con el formato correcto de los tres productos", function() {
     carrito.productos = [];
     carrito.agregarAlCarrito(mouse);
-    carrito.agregarAlCarrito(teclado);
     carrito.agregarAlCarrito(auriculares);
+    carrito.agregarAlCarrito(teclado);
     assert.equal(carrito.detalle(), 'Listado de productos:\nMouse Genius - 270\n,Auriculares Genius - 620\n,Teclado Genius - 420\nTotal con IVA: 1585.1');
   })
   
