@@ -1,4 +1,4 @@
-describe("Si agregamos un mouse, un teclado y unos auriculares", function() {
+describe("Si agregamos un mouse,", function() {
   let mouse = {
     id: 1,
     titulo: "Mouse Genius",
@@ -31,3 +31,4 @@ describe("Si agregamos un mouse, un teclado y unos auriculares", function() {
     assert.equal(carrito.detalle(), 'Listado de productos:\nMouse Genius - 270\n,Auriculares Genius - 620\n,Teclado Genius - 420\nTotal con IVA: 1585.1');
   })
   
+});
