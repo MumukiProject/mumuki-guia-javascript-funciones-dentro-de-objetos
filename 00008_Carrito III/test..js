@@ -37,7 +37,7 @@ describe("Si agregamos un mouse, unos auriculares y un teclado", function() {
     carrito.agregarAlCarrito(mouse);
     carrito.agregarAlCarrito(auriculares);
     carrito.agregarAlCarrito(teclado);
-    assert.equal(carrito.detalle(), 'Listado de productos:\nMouse Genius - $270\n,Auriculares Genius - 620\n,Teclado Genius - $420\nTotal con IVA: $1585.1');
+    assert.equal(carrito.detalle(), 'Listado de productos:\nMouse Genius - $270\n,Auriculares Genius - $620\n,Teclado Genius - $420\nTotal con IVA: $1585.1');
   })
   
 });
