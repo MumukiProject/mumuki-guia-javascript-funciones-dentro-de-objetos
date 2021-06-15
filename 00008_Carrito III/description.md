@@ -1,7 +1,6 @@
 Necesitamos agregar una funcionalidad más a nuestro carrito, para ello vamos a agregarle una función que se llame `detalle` que debe mostrar el listado de productos a comprar con su precio y al final de todo el precio final total, con IVA incluido.
 
 ```js
-
 ム carrito.detalle();
 
 Listado de productos:
