@@ -2,7 +2,7 @@ Necesitamos agregar una funcionalidad más a nuestro carrito, para ello vamos a 
 
 ```js
 ム carrito.detalle()
-
+`
 Listado de productos:
 Monitor - $320
 Pendrive - $250
@@ -10,6 +10,7 @@ Mouse - $120.5
 Disco rigido - $530
 Teclado - $125.99
 Total con IVA: $1629.2529
+`
 ```
 
 > Definí la función `detalle` que retorne el detalle tal como acabamos de mostrar.
