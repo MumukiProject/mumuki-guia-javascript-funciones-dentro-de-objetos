@@ -1,6 +1,6 @@
 let playlist = {
   nombre: "Rupaul Lipsyncs",
-  owner: "Ada",
+  creadoPor: "Ada",
   seguidores: 8743,
   canciones: []
 };
