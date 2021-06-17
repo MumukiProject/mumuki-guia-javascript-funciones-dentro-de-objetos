@@ -1,7 +1,7 @@
-Necesitamos una variable `holaMundo` y asignarle un objeto con las siguientes propiedades:
+Necesitamos una variable `holaMundo` y asignarle un objeto con los siguientes métodos:
 
-- `mostrarMensaje`: una función que retorna el mensaje `"¡Hola mundo!"`;
-- `obtenerMensaje`: una función que retorna un string con el mensaje `"¡Alo mundo!"`
+- `mostrarMensaje`: retorna el mensaje `"¡Hola mundo!"`;
+- `obtenerMensaje`: retorna un string con el mensaje `"¡Alo mundo!"`
 
 ```js
 ム holaMundo.mostrarMensaje()
@@ -10,4 +10,4 @@ Necesitamos una variable `holaMundo` y asignarle un objeto con las siguientes pr
 ム holaMundo.obtenerMensaje()
 "¡Alo mundo!"
 ```
-> Declará la variable `holaMundo` con las propiedades `mostrarMensaje` y `obtenerMensaje`.
+> Declará la variable `holaMundo` con los métodos `mostrarMensaje` y `obtenerMensaje`.
