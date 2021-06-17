@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: holaMundo
+  inspection: DeclaresFunction:mostrarMensaje
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: holaMundo
+  inspection: DeclaresFunction:obtenerMensaje
