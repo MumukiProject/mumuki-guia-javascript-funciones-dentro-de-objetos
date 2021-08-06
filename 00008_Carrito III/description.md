@@ -4,7 +4,7 @@ Necesitamos agregar una funcionalidad más a nuestro carrito, para ello vamos a 
 ム carrito.detalle()
 `
 Listado de productos:
-Monitor - $320
+Monitor - $320,
 Pendrive - $250
 Mouse - $120.5
 Disco rigido - $530
